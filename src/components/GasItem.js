@@ -3,7 +3,7 @@ import React from "react";
 const GasItem = (props) => {
   return (
     <>
-      <li className="gas-item d-flex">
+      <li className="gas-item d-grid">
         <div className="gas-item__first-col flex-row-center">
           <span className={`gas-item__name ${props.className}`}>
             {props.abbr}

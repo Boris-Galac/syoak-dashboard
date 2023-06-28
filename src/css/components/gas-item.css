@@ -1,6 +1,5 @@
 .gas-item {
-  width: 100%;
-  justify-content: space-between;
+  grid-template-columns: 1fr 1fr auto;
 }
 .gas-item__name {
   position: relative;
@@ -19,6 +18,16 @@
 }
 .gas-item__second-col {
   gap: 6px;
+}
+.gas-item__second-col p {
+  margin-right: 10px;
+}
+.gas-item__third-col {
+  position: relative;
+}
+.gas-item__third-col button {
+  position: absolute;
+  right: 0;
 }
 .lightblue {
   background-color: hsla(213, 100%, 35%, 0.5);

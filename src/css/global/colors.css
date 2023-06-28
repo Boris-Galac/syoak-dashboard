@@ -1,0 +1,14 @@
+:root {
+  --font-dark-clr: hsl(233, 18%, 25%);
+  --font-midgray-clr: hsl(212, 15%, 66%);
+  --font-lightgray-clr: hsl(214, 15%, 66%);
+  --bg-gray-clr: hsl(0, 0%, 97%);
+  --blue-1: hsl(213, 100%, 35%);
+  --dark-blue: hsla(213, 100%, 24%, 1);
+  --white: hsl(0, 0%, 100%);
+  --red: hsl(0, 69%, 57%);
+  --green: hsl(140, 63%, 51%);
+  --line-blue-green: hsla(205, 60%, 55%, 0.5);
+  --line-red: hsl(0, 100%, 66%);
+  --line-yellow: hsl(36, 100%, 64%);
+}

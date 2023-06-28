@@ -1,0 +1,11 @@
+.oil-pipe-cta-btn {
+  padding: 8px 12px;
+  background-color: var(--blue-1);
+  color: var(--white);
+  font-weight: 600;
+  font-size: 12px;
+  transition: 0.2s;
+}
+.oil-pipe-cta-btn:hover {
+  --blue-1: hsl(213, 100%, 50%);
+}

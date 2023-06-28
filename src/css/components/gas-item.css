@@ -1,0 +1,42 @@
+.gas-item {
+  width: 100%;
+  justify-content: space-between;
+}
+.gas-item__name {
+  position: relative;
+  aspect-ratio: 1;
+  width: 25px;
+  border-radius: 100vmax;
+  display: grid;
+  place-items: center;
+  text-transform: uppercase;
+  color: #0052b4;
+  text-align: center;
+  font-size: 13px;
+  font-family: Inter;
+  font-weight: 900;
+  margin-right: 15px;
+}
+.gas-item__second-col {
+  gap: 6px;
+}
+.lightblue {
+  background-color: hsla(213, 100%, 35%, 0.5);
+  color: hsla(213, 100%, 35%, 1);
+}
+.lightred {
+  background-color: hsla(0, 100%, 66%, 0.5);
+  color: hsla(0, 100%, 66%, 1);
+}
+.lightorange {
+  background-color: hsla(25, 81%, 51%, 0.5);
+  color: hsla(25, 82%, 51%, 1);
+}
+.lightyellow {
+  background-color: hsla(36, 100%, 64%, 0.5);
+  color: hsla(36, 100%, 64%, 1);
+}
+.lightsea {
+  background-color: hsla(205, 60%, 55%, 0.5);
+  color: hsla(205, 60%, 55%, 1);
+}

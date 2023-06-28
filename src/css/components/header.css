@@ -1,0 +1,46 @@
+.header {
+  position: relative;
+  grid-column: 2/-1;
+  justify-content: space-between;
+  padding-inline: 24px;
+}
+.header::after {
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid #e5e5e5;
+  bottom: 0;
+  left: -100%;
+  right: 0;
+  z-index: 100;
+}
+.header__logo-wrapper {
+  aspect-ratio: 1;
+  width: 69px;
+  background-color: var(--white);
+}
+.header__notification-btn {
+}
+.header__profile-btn {
+}
+.header__input-search {
+  background-color: var(--white);
+  border-radius: 6px;
+  border: 1px solid #626263;
+  width: 311px;
+  padding: 4px 12px;
+  height: 40px;
+  gap: 10px;
+}
+.header__input-search img {
+  aspect-ratio: 1;
+  width: 16px;
+}
+.search {
+  outline: 0;
+  border: 0;
+  font-size: 16px;
+  width: 100%;
+}
+.col:nth-child(2) {
+  gap: 24px;
+}

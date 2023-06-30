@@ -75,3 +75,23 @@ export const gasData = [
     city: "Zagreb, Croatia",
   },
 ];
+export const fuelData = [
+  {
+    price: "0.75€",
+  },
+  {
+    price: "1.52€",
+  },
+  {
+    price: "0.84€",
+  },
+  {
+    price: "1.35€",
+  },
+  {
+    price: "0.35€",
+  },
+  {
+    price: "0.15€",
+  },
+];

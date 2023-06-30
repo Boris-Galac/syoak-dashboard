@@ -1,0 +1,22 @@
+.pagination {
+  gap: 1px;
+  border-radius: 2px;
+  overflow: hidden;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.05);
+  margin-left: auto;
+  width: max-content;
+}
+.pagination__list {
+  gap: 1px;
+}
+.pagination__link {
+  padding: 12px 13px;
+  background-color: var(--white);
+  color: hsl(0, 0%, 53%);
+  font-size: 12.8px;
+  font-weight: 400;
+}
+.pagination__link--previous,
+.pagination__link--next {
+  display: flex;
+}

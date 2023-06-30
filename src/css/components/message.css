@@ -1,0 +1,42 @@
+.message {
+  position: relative;
+  justify-content: space-around;
+  isolation: isolate;
+  cursor: pointer;
+}
+.message::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: -10px;
+  bottom: -10px;
+  background-color: #fff;
+  z-index: -1;
+  border-radius: 5px;
+  box-shadow: 0px 8px 5px 0px rgba(0, 0, 0, 0.03);
+  transition: 0.3s;
+  opacity: 0;
+}
+.message:hover::after {
+  opacity: 1;
+}
+.message__second-col h3 {
+  color: var(--font-dark-clr);
+  font-size: 13px;
+}
+.message__second-col p {
+  font-size: 13px;
+  font-weight: 500;
+}
+.message__third-col span {
+  font-size: 11.8px;
+}
+.message__second-col p,
+.message__third-col span {
+  color: var(--font-lightgray-clr);
+}
+.message__second-col h3,
+.message__third-col span {
+  font-weight: 900;
+}

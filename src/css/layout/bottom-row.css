@@ -27,6 +27,7 @@
   background-color: var(--white);
   padding-inline: 36px;
   padding-block: 37px;
+  margin-right: 30px;
 }
 .activity__list {
   gap: 32px;
@@ -57,4 +58,12 @@
 }
 .activity-item__third-col p {
   color: var(--font-lightgray-clr);
+}
+.messages {
+  padding-block: 37px;
+}
+.messages__wrapper {
+}
+.messages__list {
+  gap: 24px;
 }

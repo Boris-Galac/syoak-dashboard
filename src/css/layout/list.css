@@ -1,0 +1,43 @@
+.list {
+  margin-bottom: 28px;
+}
+.fuel__list {
+  display: grid;
+  gap: 15px;
+}
+.list__label-bar {
+  align-items: flex-end;
+}
+.list__label-bar-wrapper {
+  justify-content: space-between;
+  margin-left: 61px;
+}
+.list__label-heading:nth-child(1) {
+  margin-right: 156px;
+}
+.list__label-heading:nth-child(2) {
+  margin-right: 82px;
+}
+.list__label-heading:nth-child(3) {
+  margin-right: 156px;
+}
+.list__label-heading:nth-child(4) {
+  margin-right: 128px;
+}
+/* overlay when you click on more */
+
+.menu-overlay.active {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.03);
+  z-index: 100;
+  animation: overlay 0.2s forwards;
+}
+@keyframes overlay {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -1,11 +1,61 @@
 .oil-pipe-cta-btn {
   padding: 8px 12px;
-  background-color: var(--blue-1);
-  color: var(--white);
   font-weight: 600;
   font-size: 12px;
   transition: 0.2s;
 }
-.oil-pipe-cta-btn:hover {
+.fuel-type-btn {
+  color: var(--font-lightgray-clr);
+  font-size: 12px;
+  font-weight: 500;
+  gap: 3px;
+}
+.filter-btn,
+.add-btn {
+  padding: 12px 20px;
+  display: flex;
+  gap: 1px;
+  align-items: center;
+  border-radius: 0;
+  gap: 2px;
+  font-weight: 500;
+  font-size: 12.8px;
+}
+.filter-btn {
+  border: 1.5px solid var(--blue-1);
+  color: var(--blue-1);
+}
+.input__btn-wrapper {
+  gap: 22px;
+}
+.input__btn-wrapper button {
+  border-radius: 0;
+  font-weight: 500;
+  cursor: pointer;
+}
+.input__btn-wrapper button:nth-child(1),
+.input__btn-wrapper button:nth-child(2) {
+  border-radius: 0;
+  width: 121px;
+  height: 36px;
+}
+.primary--btn {
+  color: var(--white);
+  background-color: var(--blue-1);
+  transition: 0.2s;
+}
+.primary--btn:hover {
   --blue-1: hsl(213, 100%, 50%);
+}
+.secondary--btn {
+  color: var(--blue-1);
+  border: 1.5px solid var(--blue-1);
+  transition: 0.2s;
+}
+.secondary--btn:hover {
+  background-color: rgb(243, 245, 246);
+}
+.tertiary-btn {
+  padding-inline: 20px;
+  color: var(--red);
 }
